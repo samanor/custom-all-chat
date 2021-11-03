@@ -1,13 +1,13 @@
-package com.example;
+package com.customallchat;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class CustomAllChatPluginTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(CustomAllChatPlugin.class);
 		RuneLite.main(args);
 	}
 }
